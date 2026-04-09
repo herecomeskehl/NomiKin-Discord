@@ -10,7 +10,7 @@ import (
     "time"
 
     "github.com/bwmarrin/discordgo"
-    NomiKin "github.com/kehlanistlaurent/NomiKinGo"
+    NomiKin "github.com/herecomeskehl/NomiKinGo"
 )
 
 type Companion struct {
