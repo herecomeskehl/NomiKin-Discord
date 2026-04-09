@@ -32,7 +32,7 @@ func (c *Companion) HandleSlashCommands(s *discordgo.Session, i *discordgo.Inter
             c.Log("Command 'showconfig' triggered [command enabled: %v]", c.ShowConfigEnabled)
             var embed *discordgo.MessageEmbed
             var err error
-            desc := "Bot Info: " + Version + " [NomiKin-Discord](https://github.com/kehlanistlaurent/NomiKin-Discord) by <@1381637565672722454>"
+            desc := "Bot Info: " + Version + " [NomiKin-Discord](https://github.com/herecomeskehl/NomiKin-Discord) by <@1381637565672722454>"
             var user *discordgo.User
             if i.Member != nil && i.Member.User != nil {
                 user = i.Member.User
