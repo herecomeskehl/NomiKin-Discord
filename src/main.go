@@ -10,7 +10,7 @@ import (
 func main() {
     fmt.Println(Banner)
     fmt.Println("Version: " + Version)
-    fmt.Println("Help, info, contact: github.com/kehlanistlaurent/NomiKin-Discord")
+    fmt.Println("Help, info, contact: github.com/herecomeskehl/NomiKin-Discord")
 
     if os.Getenv("NOMIKINLOGGING") == "verbose" {
         Verbose = true
