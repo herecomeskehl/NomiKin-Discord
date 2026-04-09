@@ -86,7 +86,7 @@ func UpdateStatus(dg *discordgo.Session) {
         }
     }
 
-    statusMessageLocation := "https://raw.githubusercontent.com/kehlanistlaurent/NomiKin-Discord/refs/heads/main/StatusMessage.txt"
+    statusMessageLocation := "https://raw.githubusercontent.com/herecomeskehl/NomiKin-Discord/refs/heads/main/StatusMessage.txt"
     statusResp, err := http.Get(statusMessageLocation)
     if err != nil {
         workingCompanion.Log("Error retrieving status message: %v", err)
