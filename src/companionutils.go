@@ -10,7 +10,7 @@ import (
     "time"
 
     "github.com/bwmarrin/discordgo"
-    "github.com/kehlanistlaurent/NomiKinGo"
+    "github.com/herecomeskehl/NomiKinGo"
 )
 
 func (companion *Companion) AmIPrimary(m *discordgo.MessageCreate) bool {
