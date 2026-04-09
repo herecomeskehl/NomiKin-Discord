@@ -1,7 +1,7 @@
 package main
 
 import (
-    NomiKin "github.com/kehlanistlaurent/NomiKinGo"
+    NomiKin "github.com/herecomeskehl/NomiKinGo"
 )
 
 type Room struct {
